@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainContainer1590x750px{
+    width: 1590px;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+}
+.tetrisBody{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+}
+.leftBd{
+    width: 50%;
+    height: 100%;
+    background-color: brown;
+}
+.rightBd{
+    width: 50%;
+    height: 100%;
+    
+    background-color: green;
+}
+.RBUpp{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    background-color: aqua;
+}
+.infoWindow{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(35, 51, 51);
+}
+.setingButtons{
+    width: 30%;
+    height: 100%;
+    background-color: black;
+}
