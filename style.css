@@ -10,7 +10,7 @@
     justify-content: center;
 }
 .tetrisBody{
-    width: 50%;
+    width: 48%;
     height: 100%;
     background-color: blue;
     display: flex;
@@ -18,6 +18,9 @@
 .leftBd{
     width: 50%;
     height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     background-color: brown;
 }
 .rightBd{
